@@ -1,0 +1,63 @@
+body {background:#F0F8FF;
+	margin:0;
+	padding:0;}
+
+* {
+  box-sizing: border-box;
+}
+.logo{font-family:Impact, Charcoal, sans-serif; 
+		color:teal;
+		text-transform: uppercase;
+		display:block;
+		text-align: center;
+		}
+
+body {background:#F0F8FF;
+	margin:0;
+	padding:0;}
+
+.navigation{
+		text-align:center;}
+
+.navigation h3{
+  		display: inline-block;
+  		height: 20px;
+  		margin:0px 60px;}
+.container{position:relative;
+			top:40px;
+			left:70px;
+			width:400px;
+			height:400px;}
+.container img{width:100%;
+		height:auto;
+		border-radius: 5%;}
+.originalRoll{position:relative;}
+
+.originalRoll h1{position:absolute;
+	left: 500px;
+	top:30px;
+	font-style: italic;}
+
+p{position:absolute;
+	left: 500px;
+	top:90px;
+	color:teal;
+	font-size:17px;
+}
+
+
+#chooseSize{position:absolute;
+	left:500px;
+	top:150px;
+	color:teal;}
+
+#chooseGlazing{position:absolute;
+	left:500px;
+	top:250px;
+	color:teal;}
+
+button{position:relative;
+		left:800px;
+		color:teal;
+		font-family: "sans-serif";
+		font-size: 30px;}

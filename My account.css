@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+.logo{font-family:Impact, Charcoal, sans-serif; 
+		color:teal;
+		text-transform: uppercase;
+		display:block;
+		text-align: center;
+		}
+
+body {background:#F0F8FF;
+	margin:0;
+	padding:0;}
+
+.container{display:block;
+	width:600px;
+	height: 600px;
+	background: black;
+	padding: 50px;
+
+
+}
+form{display:block;
+	text-align: center;
+	width:100%;
+	}
