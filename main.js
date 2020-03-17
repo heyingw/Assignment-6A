@@ -1,11 +1,7 @@
 
 // starter code for week 5 of pui lab
 
-
-function addNewList() {
-    alert('hello world alert!');
-    console.log('hello world console');
-}
+window.alert("One item has been added to your cart!");
 
 document.getElementById("one").onclick=myFunction(){}
 function myFunction(){ var x = document.getElementById("thumbnailImage");
@@ -28,8 +24,9 @@ function myFunction5(){ var x = document.getElementById("thumbnailImage");
   x.src = "./rolls 2.png";
 }
 
-var cartItem=0
-Function addtoCart(){
-	var cartItem+=1
-	 document.getElementById("cartItem").innerHTML="Shopping cart:cartItem"
-}
+
+var cartItemNumber=0;
+function addToCart(){
+cartItemNumber+=1;
+document.getElementById("cartItem").innerHTML="Shopping Cart: cartItemNumber";
+window.alert("One item has been added to your cart!");}
